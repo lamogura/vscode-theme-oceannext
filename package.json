@@ -1,0 +1,22 @@
+{
+    "name": "theme-oceannext-jkmod",
+    "displayName": "Ocean Next JKMod",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "mogura",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Ocean Next JKMod",
+                "uiTheme": "vs-dark",
+                "path": "./themes/OceanNextJKMod.tmTheme"
+            }
+        ]
+    }
+}
