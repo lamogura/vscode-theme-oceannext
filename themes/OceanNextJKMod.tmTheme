@@ -74,7 +74,7 @@
       <key>name</key>
       <string>Keyword, Storage</string>
       <key>scope</key>
-      <string>keyword, storage.type, storage.modifier</string>
+      <string>keyword, storage.type, storage.modifier, support.type.prelude.elm</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -133,7 +133,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#6699CC</string>
+        <string>#7BAEE2</string>
       </dict>
     </dict>
     <dict>
@@ -144,7 +144,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#6699CC</string>
+        <string>#7BAEE2</string>
       </dict>
     </dict>
     <dict>
@@ -186,7 +186,7 @@
       <key>name</key>
       <string>Class, Support</string>
       <key>scope</key>
-      <string>entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter</string>
+      <string>entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter, support.constant.elm</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -212,7 +212,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#6699CC</string>
+        <string>#7BAEE2</string>
       </dict>
     </dict>
     <dict>
@@ -234,18 +234,51 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#6699CC</string>
+        <string>#7BAEE2</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>elm punctuation</string>
+      <key>scope</key>
+      <string>constant.language.list, constant.language.empty-list.elm, constant.language.record, punctuation.colon.elm, meta.brace.round.elm</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#5FB3B3</string>
       </dict>
     </dict>
     <dict>
       <key>name</key>
       <string>Module Keywords</string>
       <key>scope</key>
-      <string>keyword.operator.module</string>
+      <string>keyword.operator.module, meta.declaration.exports.elm</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
         <string>#C594C5</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Module Keywords: #9CA2E4</string>
+      <key>scope</key>
+      <string>constant.other.elm</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#7BAEE2</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>elm Module imports</string>
+      <key>scope</key>
+      <string>meta.declaration.exports.elm storage.type.elm</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#7BAEE2</string>
       </dict>
     </dict>
     <dict>
@@ -287,7 +320,7 @@
       <key>name</key>
       <string>meta.method.js</string>
       <key>scope</key>
-      <string>meta.class-method.js entity.name.function.js, variable.function.constructor</string>
+      <string>meta.class-method.js entity.name.function.js, variable.function.constructor,support.function.prelude.elm, support.function.elm</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -405,7 +438,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#6699CC</string>
+        <string>#7BAEE2</string>
       </dict>
     </dict>
     <dict>
@@ -462,7 +495,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#6699CC</string>
+        <string>#7BAEE2</string>
       </dict>
     </dict>
     <dict>
